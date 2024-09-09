@@ -1,26 +1,32 @@
+
+#### Navegue até o diretório do projeto:
 ```bash
-# Navegue até o diretório do projeto:
 cd ia
 ```
 
+####  Crie o ambiente virtual
 ```bash
-# Crie o ambiente virtual
 python -m venv ambiente_virtual
 ```
+
+###  Ative o ambiente virtual:
+####  No Windows:
 ```bash
-# Ative o ambiente virtual:
-# No Windows:
 ambiente_virtual\Scripts\activate
 ```
+
+
+####  No Linux/macOS:
 ```bash
-# No Linux/macOS:
 source ambiente_virtual/bin/activate
 ```
+
+####  Instale os pacotes (pode ser que demore um pouco)
 ```bash
-# instale os pacotes (pode ser que demore um pouco)
 pip install -r requirements.txt
 ```
+
+####  Para desativar o ambiente virtual
 ```bash
-# Para desativar o ambiente virtual
 deactivate
 ```
